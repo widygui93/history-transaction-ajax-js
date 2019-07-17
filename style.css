@@ -1,0 +1,14 @@
+.col-sm-12 {
+	background-color:#cfd8e8;
+}
+.col-sm-4 {
+	background-color:lavender;
+}
+.col-sm-8 {
+	background-color:lavenderblush;
+}
+table, th, td, tr {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
