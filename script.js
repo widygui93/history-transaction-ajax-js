@@ -34,7 +34,7 @@ function displayHistoryTransFunc(xml,cust){
 	let contentTable = "<tr><th>No</th><th>Date</th><th>INFO</th><th>DEBET/KREDIT</th><th>AMOUNT</th><th>BALANCE</th></tr>";
 	const transaction = name[idxSelectedCustomer].parentNode.getElementsByTagName("TRANSACTION");
 	for(let i = 0; i < transaction.length; i++){
-		contentTable += "<tr><td>" + i + "</td><td>" + transaction[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("INFO")[0].childNodes[0].nodeValue + "</td><td>" +transaction[i].getElementsByTagName("DEBETKREDIT")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("AMOUNT")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("BALANCE")[0].childNodes[0].nodeValue + "</td></tr>";
+		contentTable += "<tr><td>" + (i+1) + "</td><td>" + transaction[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("INFO")[0].childNodes[0].nodeValue + "</td><td>" +transaction[i].getElementsByTagName("DEBETKREDIT")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("AMOUNT")[0].childNodes[0].nodeValue + "</td><td>" + transaction[i].getElementsByTagName("BALANCE")[0].childNodes[0].nodeValue + "</td></tr>";
 	}
 	document.getElementsByTagName("table")[0].innerHTML = contentTable;
 }
