@@ -4,6 +4,9 @@ Basically, this is a simple project I make after learning AJAX javascript to fet
 # Display in Full View
 ![Capture](https://user-images.githubusercontent.com/51254100/61575955-591c8580-aafd-11e9-863b-24817b88b7a7.PNG)
 
+# Display in Responsive View
+![Capture1](https://user-images.githubusercontent.com/51254100/61575983-d0521980-aafd-11e9-852b-f5901a359a45.PNG)
+
 # How To Test
 1. download all the file (html,css,js and xml)
 2. make sure all files in same folder
