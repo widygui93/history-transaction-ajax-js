@@ -1,8 +1,8 @@
 # History-Transaction-AJAX-JS
 Basically, this is a simple project I make after learning AJAX javascript to fetch data history transaction in xml file using XMLHttpRequest.
 
-# Display
-![Capture](https://user-images.githubusercontent.com/51254100/61386810-2432e780-a8df-11e9-8d72-4c48e7aa13e1.PNG)
+# Display in Full View
+![Capture](https://user-images.githubusercontent.com/51254100/61575955-591c8580-aafd-11e9-863b-24817b88b7a7.PNG)
 
 # How To Test
 1. download all the file (html,css,js and xml)
