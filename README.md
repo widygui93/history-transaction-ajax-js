@@ -15,4 +15,4 @@ Basically, this is a simple project I make after learning AJAX javascript to fet
 5. click button view and the history data transaction will be displayed on the right side
 6. click button clear to clear the data
 
-NB : make sure the browser is FIREFOX because the others like chrome will get nothing in display and will get CORS error in console. But I have found the work around about this at https://dev.to/nicolus/what-you-should-know-about-cors-48d6 
+NB : make sure the browser is FIREFOX because the others like chrome will get nothing in display and will get CORS error in console. But I have found the work around about this at https://dev.to/nicolus/what-you-should-know-about-cors-48d6 Or you can run it from local web server (XAMPP) make sure the apache starts and put the files in htdocs and start to run it with localhost/history_transaction/index.html
